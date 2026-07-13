@@ -1,8 +1,9 @@
 import React from "react" ;
+import HighlightIcon from "@mui/icons-material/Highlight";
 
 function Header(){
     return <header>
-        <h1>ToDo App</h1>
+        <h1> <HighlightIcon/> ToDo App</h1>
     </header>
 }
 export default Header
